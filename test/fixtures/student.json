@@ -1,0 +1,28 @@
+[
+	{
+		"_associationId": 1, 
+		"name": "Carlos Ramon", 
+		"teacher": {
+			"_association": 1,
+			"_model": "teacher", 
+			"_required": true
+		}, 
+		"subjects": {
+			"_association": [1, 2],
+			"_model": "subject"
+		}
+	}, 
+	{
+		"_associationId": 2, 
+		"name": "Keesha Franklin", 
+		"teacher": {
+			"_association": 1, 
+			"_model": "teacher", 
+			"_required": true
+		}, 
+		"subjects": {
+			"_association": [1, 2], 
+			"_model": "subject"
+		}
+	}
+]

@@ -1,0 +1,13 @@
+[
+	{
+		"_associationId": 1, 
+		"teacher": {
+			"_association": 1, 
+			"_model": "teacher"
+		}, 
+		"students": {
+			"_association": [1, 2], 
+			"_model": "student"
+		}
+	}
+]

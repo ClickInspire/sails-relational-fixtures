@@ -1,0 +1,15 @@
+[
+	{
+		"_associationId": 1, 
+		"name": "Ms. Frizzle", 
+		"students": {
+			"_association": [1, 2],
+			"_model": "student"
+		}, 
+		"classroom": {
+			"_association": 1, 
+			"_model": "classroom",
+			"_required": true
+		}
+	}
+]

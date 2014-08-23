@@ -1,0 +1,14 @@
+[
+	{
+		"_associationId": 1, 
+		"name": "Science"
+	}, 
+	{
+		"name": "Math"
+	}, 
+	{ 
+		"_associationId": 2, 
+		"name": "Magic"
+	}
+]
+		
